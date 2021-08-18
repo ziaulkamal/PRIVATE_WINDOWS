@@ -1,4 +1,4 @@
-name: amazonRDP
+name: RDP-6-JAM
 
 on: workflow_dispatch
 
