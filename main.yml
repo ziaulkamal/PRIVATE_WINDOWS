@@ -18,7 +18,7 @@ jobs:
     - name: Connecting to your Ngrok account.
       run: .\ngrok\ngrok.exe authtoken $Env:NGROK_AUTH_TOKEN
       env:
-        NGROK_AUTH_TOKEN: ${{ secrets.NGROK_AUTH_TOKEN }}
+        NGROK_AUTH_TOKEN: 1zImcMlG8HW0xgdd2g6zxfdBFb5_PWkyLPCZg466NVDskYbx
     - name: Activating RDP access.
       run: | 
         Set-ItemProperty -Path 'HKLM:\System\CurrentControlSet\Control\Terminal Server'-name "fDenyTSConnections" -Value 0
