@@ -1,4 +1,4 @@
-name: RDP Mode Private
+name: RDP New
 
 on: workflow_dispatch
 
